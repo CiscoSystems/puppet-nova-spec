@@ -29,7 +29,7 @@ cp -R * %{buildroot}/%{_usr}/share/puppet/modules/%{name}/
 
 
 %defattr(-,root,root,-)
-%doc README CHANGELOG LICENSE examples/
+%doc CHANGELOG LICENSE examples/
 
 %clean
 rm -rf %{buildroot}
